@@ -1,0 +1,16 @@
+{
+  "name": "@oneship/core",
+  "version": "1.0.0",
+  "description": "Core types and interfaces for OneShip",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

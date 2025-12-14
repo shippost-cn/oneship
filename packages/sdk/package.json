@@ -1,0 +1,19 @@
+{
+  "name": "@oneship/sdk",
+  "version": "1.0.0",
+  "description": "OneShip Node.js SDK",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@oneship/core": "*",
+    "@oneship/api": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+

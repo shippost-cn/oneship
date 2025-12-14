@@ -1,0 +1,27 @@
+{
+  "name": "oneship",
+  "version": "1.0.0",
+  "description": "Headless shipping integration platform - Integrate multiple courier APIs with workflow engine",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "nx run-many --target=build --all",
+    "dev": "nx run-many --target=serve --all --parallel",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all"
+  },
+  "devDependencies": {
+    "@nx/node": "^20.0.0",
+    "@nx/workspace": "^20.0.0",
+    "@types/node": "^20.0.0",
+    "nx": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
